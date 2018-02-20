@@ -1,3 +1,7 @@
 const names = ['Lucas', 'Dakota', 'Dylan', 'Naomi'];
 
-console.log(names);
+const sayNames = function(){
+    return names;
+}
+
+console.log(sayNames());
