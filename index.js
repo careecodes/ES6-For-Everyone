@@ -1,1 +1,3 @@
-console.log("Working");
+const names = ['Lucas', 'Dakota', 'Dylan', 'Naomi'];
+
+console.log(names);
