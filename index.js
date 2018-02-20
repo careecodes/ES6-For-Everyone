@@ -1,7 +1,11 @@
 const names = ['Lucas', 'Dakota', 'Dylan', 'Naomi'];
 
-const sayNames = function(){
-    return names;
-}
+// const sayNames = function(){
+//     return names;
+// }
 
-console.log(sayNames());
+const fullNames = names.map(function(name) {
+    return `${name} Youngman`;
+})
+
+console.log(fullNames);
