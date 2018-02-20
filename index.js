@@ -1,11 +1,7 @@
-const names = ['Lucas', 'Dakota', 'Dylan', 'Naomi'];
-
-// const sayNames = function(){
-//     return names;
-// }
-
-const fullNames = names.map(function(name) {
-    return `${name} Youngman`;
+const firstNames = ['Lucas', 'Dakota', 'Dylan', 'Naomi'];
+const lastName = 'Youngman';
+const fullNames = firstNames.map(function(name) {
+    return `${name} ${lastName}`;
 })
 
 console.log(fullNames);
