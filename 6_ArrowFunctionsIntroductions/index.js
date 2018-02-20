@@ -6,6 +6,7 @@ const fullNames = firstNames.map(function(name) {
 });
 
 const fullNames2 = firstNames.map((name) => {
+    // Explicit return
     return `${name} ${lastName}`;
 });
 
@@ -13,3 +14,13 @@ const fullNames2 = firstNames.map((name) => {
 const fullNames3 = firstNames.map((name) => `${name} ${lastName}`);
 
 console.log(fullNames3);
+
+const sayMyName = (name) => { alert(`Hello ${name}`);}
+sayMyName('Caree');
+
+
+
+// NOTES:
+// cannot redeclare a const variable
+// arrow functions are always anonymous functions (no name)
+// however you can assign it to a variable
